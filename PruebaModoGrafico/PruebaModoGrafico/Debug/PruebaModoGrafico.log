@@ -1,0 +1,16 @@
+﻿  frmNombrePuntaje.cpp
+  frmPuntaje.cpp
+  ListaSimple.cpp
+  Inicio.cpp
+c:\users\home\desktop\espe materias\cuarto nivel\estructura de datos soy arbol\primer parcial\proyecto parcial 1\nueva carpeta\pruebamodografico\pruebamodografico\Inicio.h(2): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\home\desktop\espe materias\cuarto nivel\estructura de datos soy arbol\primer parcial\proyecto parcial 1\nueva carpeta\pruebamodografico\pruebamodografico\Gusano.h(87): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\home\desktop\espe materias\cuarto nivel\estructura de datos soy arbol\primer parcial\proyecto parcial 1\nueva carpeta\pruebamodografico\pruebamodografico\Inicio.h(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\home\desktop\espe materias\cuarto nivel\estructura de datos soy arbol\primer parcial\proyecto parcial 1\nueva carpeta\pruebamodografico\pruebamodografico\Inicio.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+Inicio.cpp(8): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Nodo.cpp
+  Gusano.cpp
+c:\users\home\desktop\espe materias\cuarto nivel\estructura de datos soy arbol\primer parcial\proyecto parcial 1\nueva carpeta\pruebamodografico\pruebamodografico\Gusano.h(87): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  frmNombrePuntaje.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  PruebaModoGrafico.vcxproj -> C:\Users\Home\Desktop\ESPE MATERIAS\CUARTO NIVEL\ESTRUCTURA DE DATOS SOY ARBOL\PRIMER PARCIAL\PROYECTO PARCIAL 1\Nueva carpeta\PruebaModoGrafico\Debug\PruebaModoGrafico.exe
+  PruebaModoGrafico.vcxproj -> C:\Users\Home\Desktop\ESPE MATERIAS\CUARTO NIVEL\ESTRUCTURA DE DATOS SOY ARBOL\PRIMER PARCIAL\PROYECTO PARCIAL 1\Nueva carpeta\PruebaModoGrafico\Debug\PruebaModoGrafico.pdb (Partial PDB)
