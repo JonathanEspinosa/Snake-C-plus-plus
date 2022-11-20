@@ -1,2 +1,0 @@
-#include "Puntaje.h"
-

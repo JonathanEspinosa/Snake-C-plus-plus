@@ -123,8 +123,8 @@ namespace PruebaModoGrafico {
 		listBox1->Items->Clear();
 		listBox1->Items->Add("\t\tNOMBRES\t\tPUNTAJES\t\t");
 
-		if (File::Exists("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/Datos SNAKE.txt")) {
-			StreamReader^ sr = File::OpenText("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/Datos SNAKE.txt");
+		if (File::Exists("Datos SNAKE.txt")) {
+			StreamReader^ sr = File::OpenText("Datos SNAKE.txt");
 			try {
 				String^ s = "";
 				while (!(sr->EndOfStream)) {

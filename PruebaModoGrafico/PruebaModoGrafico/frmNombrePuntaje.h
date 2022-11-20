@@ -123,7 +123,7 @@ namespace PruebaModoGrafico {
 	private: String^ punt;
 	private: System::Void btnOk_Click(System::Object^  sender, System::EventArgs^  e) {
 		punt = puntos.ToString();
-		StreamWriter^ sw = File::AppendText("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/Datos SNAKE.txt");
+		StreamWriter^ sw = File::AppendText("Datos SNAKE.txt");
 	 
 				sw->WriteLine(String::Concat("=>", "\t\t", txtString->Text, "\t\t\t", punt));
 		   

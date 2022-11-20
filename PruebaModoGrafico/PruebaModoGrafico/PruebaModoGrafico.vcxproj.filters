@@ -68,4 +68,24 @@
       <Filter>Resource Files</Filter>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="sdlg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacman68.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacman76.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacman82.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="pacman85.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="circulo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

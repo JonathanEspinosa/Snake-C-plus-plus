@@ -44,7 +44,7 @@ namespace PruebaModoGrafico {
 		///FUNCION QUE CREA AL GUSANO 
 		void crearGusano(int posx, int posy) {
 			Label^ pb = (gcnew System::Windows::Forms::Label());
-			pb->BackgroundImage = Image::FromFile("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/circulo.png");
+			pb->BackgroundImage = Image::FromFile("circulo.png");
 			pb->BackColor = System::Drawing::Color::Transparent;
 			pb->Width = 40;
 			pb->Height = 40;
@@ -60,7 +60,7 @@ namespace PruebaModoGrafico {
 			int X = rand() % (this->Width - TamanoPrincipal - 10) + 1;
 			int Y = rand() % (this->Height - TamanoPrincipal - 40) + 1;
 			Label^ repollo = (gcnew System::Windows::Forms::Label());
-			repollo->BackgroundImage = Image::FromFile("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/sdlg.png");
+			repollo->BackgroundImage = Image::FromFile("sdlg.png");
 			repollo->BackColor = System::Drawing::Color::Transparent;
 			repollo->Width = 40;
 			repollo->Height = 40;
@@ -167,7 +167,7 @@ namespace PruebaModoGrafico {
 		lblpuntos->Text = i.ToString();
 		int nx = lista.ver(0)->Location.X;
 		int ny = lista.ver(0)->Location.Y;
-		lista.ver(0)->BackgroundImage = Image::FromFile("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/pacman" + Direccion + ".png");
+		lista.ver(0)->BackgroundImage = Image::FromFile("pacman" + Direccion + ".png");
 
 		for (int t = i - 1; t >= 0; t--) {
 			if (t == 0) {
@@ -176,7 +176,7 @@ namespace PruebaModoGrafico {
 				else if (Direccion == 'L') nx = nx - TamanoPrincipal;
 				else if (Direccion == 'U') ny = ny - TamanoPrincipal;
 				else if (Direccion == 'D') ny = ny + TamanoPrincipal;
-				lista.ver(0)->BackgroundImage = Image::FromFile("C:/Users/Home/Desktop/ESPE MATERIAS/CUARTO NIVEL/ESTRUCTURA DE DATOS/PROYECTO PARCIAL 1/pacman" + Direccion + ".png");
+				lista.ver(0)->BackgroundImage = Image::FromFile("pacman" + Direccion + ".png");
 				lista.ver(0)->Location = System::Drawing::Point(nx, ny);
 			}
 			else {
